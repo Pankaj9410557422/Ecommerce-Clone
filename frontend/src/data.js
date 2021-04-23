@@ -1,5 +1,7 @@
-export default{
-    products:[{
+module.exports= {
+    products:[
+   {
+       _id:'1',
        name: 'Joggers',
        category: 'Joggers and TrackPants',
        image: '/images/d1.jpeg',
@@ -9,6 +11,7 @@ export default{
        numReviews: 34
     },
     {
+      _id:'2',
         name: 'Fit Shirt',
         category: 'Shirts',
         image: '/images/d1.jpeg',
@@ -18,6 +21,7 @@ export default{
         numReviews: 49
      },
      {
+      _id:'3',
         name: 'Chinos',
         category: 'Pants',
         image: '/images/d1.jpeg',
@@ -27,6 +31,7 @@ export default{
         numReviews: 78
      },
      {
+      _id:'4',
         name: 'Slim Shirt',
         category: 'Shirts',
         image: '/images/d1.jpeg',
@@ -34,6 +39,6 @@ export default{
         brand : 'Blackberry',
         rating: 4.8,
         numReviews: 94
-     }
+     },
 ]
 }
